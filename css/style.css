@@ -1,0 +1,62 @@
+/*Generales*/
+.text-white{
+	color:white;
+}
+
+/*margenes y paddings*/
+
+.pt-5{
+	padding-top: 5%;
+}
+
+.pb-5{
+	padding-bottom: 5%;
+}
+
+.pb-2{
+	padding-bottom: 6%;
+}
+
+.bg-gray{
+	background-color:#E6E6E6;
+}
+/*imagen de cabecera*/
+.pan{
+  background-image:url(../images/pan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40em;
+ }
+
+ .filtro{
+	opacity: 0.5;
+	background-color: gray;
+	filter:  alpha(opacity=50);
+  height: 40em;
+ }
+
+.ajuste{
+	position: absolute;
+	top: 20em;
+}
+
+/*boton icono*/
+.btn-redes {
+    border-radius: 100%;
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    padding-top:.9em;
+    margin-bottom: 1em;
+}
+
+
+
+	
+/*Bootstrap modifications*/
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
